@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <SimpleForm initial-value="初期値だよ" @submit="onSubmit"/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <SimpleForm initial-value="初期値だよ" @submit="onSubmit" />
     <div v-if="msg" class="msg">
       SimpleForm から受け取った値は
       <strong>{{ msg }}</strong> です
