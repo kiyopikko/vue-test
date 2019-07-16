@@ -1,6 +1,6 @@
 <template>
-  <form class="form" @submit.prevent="$emit('submit', value)">
-    <input v-model="value" type="text" class="input">
+  <form @submit.prevent="$emit('submit', value)">
+    <input v-model="value" type="text" class="input" />
     <BaseButton is-full>送信</BaseButton>
   </form>
 </template>
